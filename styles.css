@@ -1,0 +1,136 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue : hsl(217, 54%, 11%);
+    --dark-blue : hsl(216, 50%, 16%);
+    --blue : hsl(215, 32%, 27%);    
+}
+hr{
+    width: 270px;
+    border: 1px bold grey;
+    
+}
+h2{
+    position: relative;
+    margin-left: 12px;
+    margin-top: 0px;
+    
+}
+h2:hover{
+    color: var(--cyan);
+
+}
+.para{
+    margin-left: 12px;
+    margin:4px 12px;
+    color: var(--Soft-blue);
+}
+body{
+  
+    background-color: var(--Very-dark-blue);
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    /* height: 600px;
+    width:1525px; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'outfit' , sans-serif;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.item{
+
+    height:500px;
+    width:308px;
+    background-color:var(--dark-blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.eth-img{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 260px;
+    width: 280px;
+    border-radius: 10px;  
+}
+.eth-img:hover .wrap{
+background-color: var(--cyan);
+}
+.time{
+display: flex;
+align-items: center;
+gap: 3px;
+color: var(--Soft-blue);
+}
+
+.jules{
+    margin-left: 12px;
+    width:25px;
+    height:25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+.need{
+    display: flex;
+    gap: 6.5rem;
+    margin-left: 12px;
+ 
+    flex-grow: 1;
+}
+.eth{
+    display: flex;
+    align-items: center;
+color: var(--cyan);
+font-weight: bolder;
+gap: 3px;
+}
+span{
+    font-weight: bold;
+    color: #fff;
+}
+span:hover{
+    color: var(--cyan);
+}
+.last{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--Soft-blue);
+}
+.wrap{
+     height: 260px;
+    width: 280px;
+    margin: 15px 15px;
+    border-radius: 11px;
+}
+.wrap:hover  .hover-img{
+    opacity: 0.5;    
+}
+.wrap:hover .view{
+    opacity: 1;
+}
+
+.hover-img{
+    position: relative;
+    opacity: 0;
+    height: 260px;
+    width: 280px;
+    bottom: 265px;
+    right: 0px;
+    border-radius: 10px;
+    background-color: var(--cyan);
+    opacity: 0;
+
+}
+.view{
+   position: relative;
+   top: 100px;
+   left: 115px;
+}
